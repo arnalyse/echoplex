@@ -17,6 +17,13 @@
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+<!-- see: https://www.google.com/fonts#UsePlace:use/Collection:Lora:400,400italic,700,700italic -->
+<script type="text/javascript">
+  WebFontConfig = {
+    google: { families: [ 'Lora:400,400italic,700,700italic:latin' ] }
+  };
+ </script>
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/webfont/1/webfont.js" async="true"></script>
 <?php wp_head(); ?>
 </head>
 
