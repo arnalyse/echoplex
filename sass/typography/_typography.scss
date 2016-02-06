@@ -7,6 +7,10 @@ textarea {
 	color: $color__text-main;
 	font-family: $font__main;
 	line-height: $font__line-height-body;
+
+	html.wf-loading & {
+		font-family: Georgia, serif;
+	}
 }
 
 @import "headings";
