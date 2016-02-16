@@ -32,7 +32,9 @@ hr {
 
 img {
 	height: auto; /* Make sure images are scaled correctly. */
-	max-width: 100%; /* Adhere to container width. */
+	max-width: 108%;
+	margin-left: -4%;
+	margin-right: -4%;
 }
 
 @import "tables";
